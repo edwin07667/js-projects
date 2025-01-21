@@ -1,0 +1,42 @@
+body{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 500px;
+ 
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #00000054;
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+}
+li{
+    list-style: none;
+    margin-bottom: 17px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+label{
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    height: auto;
+    background-color: #143cf385;
+    border: none;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-top: 16px;
+}
