@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.video-slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+}
+.video-slider .video-slide{
+    height: auto;
+    flex-basis: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.video-title h1{
+    background-color: red;
+}
+.video-slider .video-slide video{
+    object-fit: cover;
+}
+.video-slider .video-slide:nth-child(1){
+    /* background-color: red; */
+    clip-path: polygon(0 0, 33% 0, 33% 100%, 0 100%);
+}
+.video-slider .video-slide:nth-child(2){
+    /* background-color:rgb(64, 126, 196); */
+    clip-path: polygon(33% 0, 67% 0, 67% 100%, 33% 100%);
+}
+.video-slider .video-slide:nth-child(3){
+    /* background-color: rgb(98, 100, 100); */
+    clip-path: polygon(67% 0, 100% 0, 100% 100%, 67% 100%);
+}
+.video-slider .video-slide.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 1;
+}
