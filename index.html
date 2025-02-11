@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"> <div class="card">
+            <div class="card-img">
+                <img src="images/blog-2-1.jpg" alt="">
+                <ul class="tags">
+                    <li>web design</li>
+                    <li>dsf</li>
+                    <li>dcsf</li>
+                </ul>
+            </div>
+            <div class="card-info">
+                <h4 class="card-name">Mohamed Yousef</h4>
+                <p>The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit</p>
+                <a href="" class="card-read">Read More</a>
+            </div>
+        </div></div>
+      <!-- Slides -->
+      <div class="swiper-slide"> <div class="card">
+        <div class="card-img">
+            <img src="images/blog-2-1.jpg" alt="">
+            <ul class="tags">
+                <li>web design</li>
+                <li>dsf</li>
+                <li>dcsf</li>
+            </ul>
+        </div>
+        <div class="card-info">
+            <h4 class="card-name">Mohamed Yousef</h4>
+            <p>The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit</p>
+            <a href="" class="card-read">Read More</a>
+        </div>
+    </div></div>
+      <div class="swiper-slide"> <div class="card">
+        <div class="card-img">
+            <img src="images/BLOGGG-869 (1).jpg" alt="">
+            <ul class="tags">
+                <li>web design</li>
+                <li>dsf</li>
+                <li>dcsf</li>
+            </ul>
+        </div>
+        <div class="card-info">
+            <h4 class="card-name">Mohamed Yousef</h4>
+            <p>The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit</p>
+            <a href="" class="card-read">Read More</a>
+        </div>
+    </div></div>
+      <div class="swiper-slide"> <div class="card">
+        <div class="card-img">
+            <img src="images/blog-2-1.jpg" alt="">
+            <ul class="tags">
+                <li>web design</li>
+                <li>dsf</li>
+                <li>dcsf</li>
+            </ul>
+        </div>
+        <div class="card-info">
+            <h4 class="card-name">Mohamed Yousef</h4>
+            <p>The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit</p>
+            <a href="" class="card-read">Read More</a>
+        </div>
+    </div></div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 3, 
+  spaceBetween: 38,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 10
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+},
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+   
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+</body>
+</html>
